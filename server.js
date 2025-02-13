@@ -17,3 +17,4 @@ app.use('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`⚡ Servidor on fire rodando na porta ⚡  ${PORT}`);
 });
+
