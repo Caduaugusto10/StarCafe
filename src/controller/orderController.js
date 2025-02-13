@@ -4,7 +4,7 @@ const OrderList  =  require ( '../models/OrderList' );
 const pedido = new OrderList();
 
 pedido.addOrder(new Order({ nome: 'Luiz', produto: 'Café americano', preco: 5, status: 'Pendente' }));
-pedido.addOrder(new Order({ nome: 'André', produto: 'Café com leite', preco: 7, status: 'Entrgue' }));
+pedido.addOrder(new Order({ nome: 'André', produto: 'Café com leite', preco: 7, status: 'Entregue' }));
 pedido.addOrder(new Order({ nome: 'Ana', produto: 'Misto quente', preco: 10, status: 'Preparando' }));
 
 const router = {
