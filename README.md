@@ -20,5 +20,5 @@ BODY raw(json)
     "preco": 3.5
 }
 
-## DELETE Deletar Pedido
+## `#660000` DELETE Deletar Pedido
 http://localhost:4000/api/order/0aafe186-4dc3-4ff4-972b-08db4cad61a6
